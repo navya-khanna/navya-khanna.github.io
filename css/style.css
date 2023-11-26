@@ -5435,6 +5435,7 @@ a.brand:focus {
 
 .row-project-box {
     margin-top: -6rem
+
 }
 
 .col-project-box {
@@ -5783,13 +5784,14 @@ a.brand:focus {
 
 .skills-scroll {
     white-space: nowrap;
-    animation: scroll 5s linear infinite;
+    animation: scroll 15s linear infinite;
 }
 
 .skill-icon {
     display: inline-block;
     margin-right: 20px; /* Adjust the margin as needed */
     font-size: 18px; /* Adjust the font size as needed */
+    filter: brightness(0) invert(1);
 }
 
 @keyframes scroll {
