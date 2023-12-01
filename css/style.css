@@ -5784,7 +5784,7 @@ a.brand:focus {
 
 .skills-scroll {
     white-space: nowrap;
-    animation: scroll 20s linear infinite;
+    animation: scroll 25s linear infinite;
 }
 
 .skill-icon {
@@ -5802,4 +5802,36 @@ a.brand:focus {
     100% {
         transform: translateX(-100%);
     }
+}
+
+.project-container {
+
+    padding: 20px; /* Add some padding for better visual appearance */
+}
+
+.project-tile {
+    border: 1px solid #000000; /* Add a border around each tile */
+    padding: 15px; /* Add padding inside each tile */
+    margin-bottom: 20px; /* Add some space between tiles */
+    transition: background 0.3s;
+}
+
+
+.project-tile a {
+    text-decoration: none; /* Remove underline from the anchor */
+    color: #333; /* Set text color for the anchor */
+}
+
+.project-tile:hover {
+    opacity: 0.7;
+    border-color: #000000; /* Change border color on hover */
+}
+
+.project-tile p.read-more {
+    color: white;
+    font-size: 18px;
+}
+
+.project-tile p.read-more:hover {
+    color: yellow; /* Change to your desired hover color */
 }
